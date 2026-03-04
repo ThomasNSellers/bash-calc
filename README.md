@@ -18,18 +18,11 @@ tom
     git clone https://github.com/ThomasNSellers/bash-calc.git bash-calc
     sudo cp bash-calc/src/bash.calc /etc/
 
-Then source the file automatically for new logins by adding the following to `/etc/bash.bashrc` or any of the other locations where you can configure your shell automatically during login:
-```
-if [ -f /etc/bash.command-not-found ]; then
-    . /etc/bash.command-not-found
-fi
-```
-Login again and type some invalid commands for the effects to be visible.
-
-Then source this file before you source the script:
+Edit your ~/.bashrc and add this to it
 ```
 if [ -f /etc/bash.calc ]; then
     . /etc/bash.calc
 fi
 
 ```
+Relog, or exit and reopen your terminal and it should work.
