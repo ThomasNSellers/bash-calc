@@ -1,7 +1,7 @@
 # bash-calc
 Runs calc command when you enter a mathematical expression into the terminal
 
-Forked from https://github.com/hkbakke/bash-insulter for the logic to change logic when invalid command is inputed.
+Forked from https://github.com/hkbakke/bash-insulter for the logic and I changed logic when invalid command is inputed.
 
 ```bash
 tom@TomsLaptop $ 10+15
